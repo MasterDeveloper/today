@@ -1,0 +1,700 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> -->
+
+<!--[if IE 6]>
+<html xmlns="http://www.w3.org/1999/xhtml" id="ie6">
+<![endif]-->
+<!--[if IE 7]>
+<html xmlns="http://www.w3.org/1999/xhtml" id="ie7">
+<![endif]-->
+<!--[if IE 8]>
+<html xmlns="http://www.w3.org/1999/xhtml" id="ie8">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--<![endif]-->
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Artist</title>
+    
+<!--    <link href='http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800' rel='stylesheet' type='text/css'>
+    -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css" />
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css" />
+    <link type="text/css" rel="stylesheet" href="css/jquery.bxslider.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/rtl.css" />
+    
+    <!--[if lte IE 8]>
+    <link type="text/css" rel="stylesheet" href="css/ie.css" />
+    <script type="text/javascript" src="js/modernizr.min.js"></script>
+    <![endif]-->
+    
+    <!--[if lte IE 6]>
+    <script type="text/javascript" src="js/belated.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.slider-1').bxSlider({
+				pager: false,
+				minSlides: 1,
+				maxSlides: 7,
+				slideMargin: 15,
+				moveSlides: 1,
+				slideWidth: 145,
+			});
+			$('.slider-controls .icon-caret-right').click(function(){
+				$('.bx-next').trigger('click');
+				return false;
+			});
+			$('.slider-controls .icon-caret-left').click(function(){
+				$('.bx-prev').trigger('click');
+				return false;
+			});
+		})
+	</script>
+</head>
+
+<body id="page-name">
+
+<div id="container-fluid">
+
+<!--header start -->
+<div id="header-wrap">
+	<div class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="pull-right login-section">
+                        <a class="btn theme-btn" data-toggle="modal" role="button" href="#myModal">Login</a>
+                        <a class="btn theme-btn " data-toggle="modal" role="button" href="#myModal-2">Register</a>
+                    </span>
+                    <div class="social-icons hidden-xs">
+                        <a class="facebook" href="#"><span class="icon-facebook"></span></a>
+                        <a class="tumblr" href="#"><span class="icon-tumblr"></span></a>
+                        <a class="youtube" href="#"><span class="icon-youtube"></span></a>
+                        <a class="linkedin" href="#"><span class="icon-linkedin"></span></a>
+                        <a class="pinterest" href="#"><span class="icon-pinterest"></span></a>
+                        <a class="google-plus" href="#"><span class="icon-google-plus"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navwrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <header class="navbar" role="navigation">
+                            <div class="navbar-header">
+                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="logo pull-left" href="#"><img alt="" src="images/logo.png"></a>
+                            </div>
+                            <nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Movies</a></li>
+                                    <li><a href="#">Actors</a></li>
+                                    <li><a href="#">Actress</a></li>
+                                </ul>
+                            </nav>
+                    </header>
+                </div><!-- col-xs-12 -->
+            </div><!-- row -->
+        </div><!-- container -->
+	</div><!-- navwrap -->
+</div>
+
+<div class="banner-wrap">
+	<div class="container banner-section">
+    	<h1>Collection of Songs over 6400 +</h1>
+        <h2>for the entertainment lovers</h2>
+    </div>
+</div>
+<!--header end -->
+<div class="search-wrap">
+	<div class="container">	
+    	<div class="col-sm-1"></div>
+        <div class="col-sm-10">
+            <div class="input-group">
+                <input type="text" class="form-control input-lg">
+                <span class="input-group-btn">
+                  <button class="btn btn-lg" type="button"><span class="icon-search"></span></button>
+                </span>
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+</div>
+
+<div class="mb-widget popular-albums">
+	<div class="container">
+		<div class="section-header text-center">
+        	<a href="#" class="popular-albums"><span class="left-corner"></span>POPULAR ALBUMS<span class="right-corner"></span></a>
+    	</div>
+        <div class="slider-wrap">
+        	<ul class="slider-1">
+            	<li>
+                	<a href="#" class="thumb">
+                        <img src="images/popular-album.png" alt="">
+                        <span class="play-icon"><img src="images/video-icon.png" alt="" /></span>
+                    </a>
+                    <div class="slide-caption">
+                    	<p>New Arrival Latest Hits</p>
+                    </div>
+                </li>
+                <li>
+                	<a href="#" class="thumb">
+                        <img src="images/popular-album.png" alt="">
+                        <span class="play-icon"><img src="images/video-icon.png" alt="" /></span>
+                    </a>
+                    <div class="slide-caption">
+                    	<p>New Arrival Latest Hits</p>
+                    </div>
+                </li>
+                <li>
+                	<a href="#" class="thumb">
+                        <img src="images/popular-album.png" alt="">
+                        <span class="play-icon"><img src="images/video-icon.png" alt="" /></span>
+                    </a>
+                    <div class="slide-caption">
+                    	<p>New Arrival Latest Hits</p>
+                    </div>
+                </li>
+                <li>
+                	<a href="#" class="thumb">
+                        <img src="images/popular-album.png" alt="">
+                        <span class="play-icon"><img src="images/video-icon.png" alt="" /></span>
+                    </a>
+                    <div class="slide-caption">
+                    	<p>New Arrival Latest Hits</p>
+                    </div>
+                </li>
+                <li>
+                	<a href="#" class="thumb">
+                        <img src="images/popular-album.png" alt="">
+                        <span class="play-icon"><img src="images/video-icon.png" alt="" /></span>
+                    </a>
+                    <div class="slide-caption">
+                    	<p>New Arrival Latest Hits</p>
+                    </div>
+                </li>
+                <li>
+                	<a href="#" class="thumb">
+                        <img src="images/popular-album.png" alt="">
+                        <span class="play-icon"><img src="images/video-icon.png" alt="" /></span>
+                    </a>
+                    <div class="slide-caption">
+                    	<p>New Arrival Latest Hits</p>
+                    </div>
+                </li>
+                <li>
+                	<a href="#" class="thumb">
+                        <img src="images/popular-album.png" alt="">
+                        <span class="play-icon"><img src="images/video-icon.png" alt="" /></span>
+                    </a>
+                    <div class="slide-caption">
+                    	<p>New Arrival Latest Hits</p>
+                    </div>
+                </li>
+                <li>
+                	<a href="#" class="thumb">
+                        <img src="images/popular-album.png" alt="">
+                        <span class="play-icon"><img src="images/video-icon.png" alt="" /></span>
+                    </a>
+                    <div class="slide-caption">
+                    	<p>New Arrival Latest Hits</p>
+                    </div>
+                </li>
+                <li>
+                	<a href="#" class="thumb">
+                        <img src="images/popular-album.png" alt="">
+                        <span class="play-icon"><img src="images/video-icon.png" alt="" /></span>
+                    </a>
+                    <div class="slide-caption">
+                    	<p>New Arrival Latest Hits</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="slider-controls">
+            	<a href="#" class="icon-caret-left"></a>
+                <a href="#" class="icon-caret-right"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--main start -->
+<div id="main-wrap">
+	<div class="container">
+        <div id="main" class="row">
+        	<section id="contents" class="col-md-9 col-sm-8">
+            	<div class="theme-tabs-wrap">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#tab-1">Bollywood</a></li>
+                        <li><a data-toggle="tab" href="#tab-2">Tamil</a></li>
+                        <li><a data-toggle="tab" href="#tab-3">Englist</a></li>
+                        <li><a data-toggle="tab" href="#tab-4">Punjabi</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane active">
+                        	<div class="clearfix top-artists">
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                <div class="artist">
+                                    <a href="#"><img alt="" src="images/as.png" class="thumb"></a>
+                                    <p><a href="#">Atif Aslam</a></p>
+                                </div><!-- artist -->
+                                
+							</div>
+                        </div><!-- tab-pane -->
+                        <div id="tab-2" class="tab-pane">
+                            <p>CONTENT2</p>
+                        </div><!-- tab-pane -->
+                        <div id="tab-3" class="tab-pane">
+                            <p>CONTENT3</p>
+                        </div><!-- tab-pane -->
+                        <div id="tab-4" class="tab-pane">
+                            <p>CONTENT4</p>
+                        </div><!-- tab-pane -->
+                    </div><!-- tab-content -->
+                </div>
+                <div class="mb-widget recent-added-wrap">
+                	<div class="section-header">
+                    	<h2><span class="icon-music"></span> Recently Added</h2>
+                    </div>
+                    <div class="clearfix">
+                        <ul class="movie-list col-sm-6">
+                            <li>
+                                <img class="pull-left" src="images/recently-added.png" alt="" />
+                                <h5>Ram-Leela</h5>
+                                <p>Music by Sanjay Leela Bhansali</p>
+                                <span class="icon-share"></span>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star inactive"></a>
+                            </li>
+                            <li>
+                                <img class="pull-left" src="images/recently-added.png" alt="" />
+                                <h5>Ram-Leela</h5>
+                                <p>Music by Sanjay Leela Bhansali</p>
+                                <span class="icon-share"></span>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star inactive"></a>
+                            </li>
+                            <li>
+                                <img class="pull-left" src="images/recently-added.png" alt="" />
+                                <h5>Ram-Leela</h5>
+                                <p>Music by Sanjay Leela Bhansali</p>
+                                <span class="icon-share"></span>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star inactive"></a>
+                            </li>
+                            <li>
+                                <img class="pull-left" src="images/recently-added.png" alt="" />
+                                <h5>Ram-Leela</h5>
+                                <p>Music by Sanjay Leela Bhansali</p>
+                                <span class="icon-share"></span>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star inactive"></a>
+                            </li>
+                        </ul>
+                        <ul class="movie-list col-sm-6">
+                            <li>
+                                <img class="pull-left" src="images/recently-added.png" alt="" />
+                                <h5>Ram-Leela</h5>
+                                <p>Music by Sanjay Leela Bhansali</p>
+                                <span class="icon-share"></span>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star inactive"></a>
+                            </li>
+                            <li>
+                                <img class="pull-left" src="images/recently-added.png" alt="" />
+                                <h5>Ram-Leela</h5>
+                                <p>Music by Sanjay Leela Bhansali</p>
+                                <span class="icon-share"></span>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star inactive"></a>
+                            </li>
+                            <li>
+                                <img class="pull-left" src="images/recently-added.png" alt="" />
+                                <h5>Ram-Leela</h5>
+                                <p>Music by Sanjay Leela Bhansali</p>
+                                <span class="icon-share"></span>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star inactive"></a>
+                            </li>
+                            <li>
+                                <img class="pull-left" src="images/recently-added.png" alt="" />
+                                <h5>Ram-Leela</h5>
+                                <p>Music by Sanjay Leela Bhansali</p>
+                                <span class="icon-share"></span>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star"></a>
+                                <a href="#" class="icon-star inactive"></a>
+                            </li>
+                        </ul>
+					</div>
+                </div>
+            </section><!--contents -->
+            <aside id="sidebar" class="col-md-3 col-sm-4">
+            	<div class="theme-box">
+                	<div class="box-header">
+	                	<h3><span class="icon-music"></span><span>Categories</span></h3>
+                    </div>
+                    <div class="box-body">
+                    	<ul class="theme-list">
+                            <li><a href="#">Bollywood</a></li>
+                            <li><a href="#">Tamil</a></li>
+                            <li><a href="#">Malayalam</a></li>
+                            <li><a href="#">Pop</a></li>
+                            <li><a href="#">Devotional</a></li>
+                            <li><a href="#">Punjabi</a></li>
+                            <li><a href="#">Indipop</a></li>
+                            <li><a href="#">Bhojpuri</a></li>
+                            <li><a href="#">Telugu</a></li>
+                            <li><a href="#">Instrumental</a></li>
+                            <li><a href="#">Rajasthani</a></li>
+                            <li><a href="#">Blues</a></li>
+                            <li><a href="#">Dance</a></li>
+                            <li><a href="#">Country</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mb-widget">
+	                <a href="#" class="btn theme-btn">Read More</a>
+                </div>
+                <div class="mb-widget">
+                	<img src="images/add-1.png" alt="" />
+                </div>
+                <div class="theme-box top-artist">
+                	<div class="box-header">
+	                    <span class="left-corner"></span>
+	                    <h3><span class="icon-music"></span><span>Categories</span></h3>
+                    </div>
+                    <div class="box-body">
+                    	<div class="artist">
+                        	<img src="images/artist-1.png" alt="" />
+                            <div class="feedbar">
+                                <a href="#" class="icon-share"></a>
+                                <a href="#" class="icon-heart"></a>
+                            </div>
+                        </div>
+                        <div class="artist">
+                        	<img src="images/artist-1.png" alt="" />
+                            <div class="feedbar">
+                                <a href="#" class="icon-share"></a>
+                                <a href="#" class="icon-heart"></a>
+                            </div>
+                        </div>
+                        <div class="artist">
+                        	<img src="images/artist-1.png" alt="" />
+                            <div class="feedbar">
+                                <a href="#" class="icon-share"></a>
+                                <a href="#" class="icon-heart"></a>
+                            </div>
+                        </div>
+                        <div class="artist">
+                        	<img src="images/artist-1.png" alt="" />
+                            <div class="feedbar">
+                                <a href="#" class="icon-share"></a>
+                                <a href="#" class="icon-heart"></a>
+                            </div>
+                        </div>
+                        <div class="artist">
+                        	<img src="images/artist-1.png" alt="" />
+                            <div class="feedbar">
+                                <a href="#" class="icon-share"></a>
+                                <a href="#" class="icon-heart"></a>
+                            </div>
+                        </div>
+                        <div class="artist">
+                        	<img src="images/artist-1.png" alt="" />
+                            <div class="feedbar">
+                                <a href="#" class="icon-share"></a>
+                                <a href="#" class="icon-heart"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- theme box-->
+                <div class="mb-widget">
+	                <a href="#" class="btn theme-btn">Show More</a>
+                </div>
+            </aside><!--sidebar -->
+        </div>
+    </div>
+</div>
+<!--main end -->
+
+
+<!--footer start -->
+<div id="footer-wrap">
+	<div class="container">
+        <footer id="footer" class="row">
+        	<div class="col-md-2 col-sm-3">
+            	<h3>Links</h3>
+                <ul class="pages-list">
+                    <li><a href="#">Songs</a></li>
+                    <li><a href="#">Albums</a></li>
+                    <li><a href="#">Playlists</a></li>
+                    <li><a href="#">Artists</a></li>
+                    <li><a href="#">Popular videos</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3 col-md-4">
+            	<h3>News</h3>
+                <ul class="news-list">
+                	<li>
+                    	<img src="images/news.png" alt="" />
+                        <p>Irrfan Khan: Nobody ever imagined I'd become an actor, was so shy</p>
+                    </li>
+                    <li>
+                    	<img src="images/news.png" alt="" />
+                        <p>Irrfan Khan: Nobody ever imagined I'd become an actor, was so shy</p>
+                    </li>
+                </ul>
+                <a href="#" class="btn theme-btn">See More</a>
+            </div>
+            <div class="col-sm-3">
+            	<h3>Trends Today</h3>
+                <ul class="caret-list">
+                    <li><a href="#">24 Series</a></li>
+                    <li><a href="#">Bigg Boss Season 7</a></li>
+                    <li><a href="#">Angela Merkel</a></li>
+                    <li><a href="#">Lou Reed</a></li>
+                    <li><a href="#">Sebastian Vettel</a></li>
+                    <li><a href="#">Narendra Modi</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3 ">
+                	<h3>Follow us on</h3>
+                    <div class="social-icons mb-widget">
+                        <a class="facebook" href="#"><span class="icon-facebook"></span></a>
+                        <a class="tumblr" href="#"><span class="icon-tumblr"></span></a>
+                        <a class="youtube" href="#"><span class="icon-youtube"></span></a>
+                        <a class="linkedin" href="#"><span class="icon-linkedin"></span></a>
+                        <a class="pinterest" href="#"><span class="icon-pinterest"></span></a>
+                        <a class="google-plus" href="#"><span class="icon-google-plus"></span></a>
+                    </div>
+                    <div class="email-letter">
+	                    <h4>Email News Letter</h4>
+                        <div class="input-group">
+                            <input type="text" class="form-control">
+                            <span class="input-group-btn">
+                              <button type="button" class="btn theme-btn">Submit</button>
+                            </span>
+                        </div>
+                    </div>
+                    
+                </div>
+        </footer>
+    </div>
+    <div class="footer-bottom">
+    	<div class="container text-center">
+        	<p>&copy; 2013 -2014 MusicsBasket All rights reserved</p>
+        </div>
+    </div>
+</div>
+<!--footer end -->
+
+</div><!--container-fluid -->
+<div id="myModal" class="modal fade signin-model" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="model-wrap">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Log In</h3>
+        </div>
+        <div class="modal-body">
+            <form  class="row">
+                <div class="col-sm-12">
+                <label>Enter Your Email Address</label>    
+                <p><input type="text" placeholder="Plese Enter Your Email Address" class="form-control"></p>
+                <label>Enter Your Password</label>    
+                <p><input type="text" placeholder="Password" class="form-control"></p>
+                <p class="clearfix"><button class="btn btn-primary col-sm-6">Log In</button></p>
+                <p><label>OR</label></p>
+                <p class="clearfix"><button class="btn btn-primary col-sm-6"><span class="icon-facebook"></span> Log In with Facebook</button></p>
+                <p class="clearfix"><button class="btn btn-info col-sm-6"><span class="icon-twitter"></span> Log In with Twitter </button></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="myModal-2" class="modal fade signin-model" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="model-wrap">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">Register</h3>
+        </div>
+        <div class="modal-body">
+            <form  class="row">
+                <div class="col-sm-12">
+                    <label>Name</label>    
+                    <p><input type="text" placeholder="Full Name" class="form-control"></p>
+                    <label>User Name</label>    
+                    <p><input type="text" placeholder="Choose a User Name" class="form-control"></p>
+                    <label>Email Address</label>    
+                    <p><input type="text" placeholder="Plese Enter Your Email Address" class="form-control"></p>
+                    <label>Password</label>    
+                    <p><input type="text" placeholder="Password" class="form-control"></p>
+                    <label>Confirm Password</label>    
+                    <p><input type="text" placeholder="Confirm Password" class="form-control"></p>
+                    <button class="btn btn-primary col-sm-6 col-xs-6">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

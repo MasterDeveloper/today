@@ -1,0 +1,227 @@
+/* Compiled Less CSS File */
+/* Generated from "rtl.css" */
+
+/*  default-theme-for-rtl  */
+.rtl {
+  direction: rtl;
+  /* All Things Float Left to Right Here */
+
+  /*  default-theme-for-rtl  */
+
+  /* According to Theme Styles */
+
+}
+.rtl [class^="col-lg-"],
+.rtl [class^="col-md-"],
+.rtl [class^="col-sm-"],
+.rtl [class^="col-xs-"] {
+  float: right;
+}
+.rtl .col-sm-1,
+.rtl .col-sm-2,
+.rtl .col-sm-3,
+.rtl .col-sm-4,
+.rtl .col-sm-5,
+.rtl .col-sm-6,
+.rtl .col-sm-7,
+.rtl .col-sm-8,
+.rtl .col-sm-9,
+.rtl .col-sm-10,
+.rtl .col-sm-11 {
+  float: right;
+}
+.rtl .col-lg-12 {
+  float: none;
+}
+.rtl .col-md-12 {
+  width: 100%;
+}
+.rtl .pull-left {
+  float: right !important;
+}
+.rtl .pull-right {
+  float: left !important;
+}
+.rtl .text-right {
+  text-align: left !important;
+}
+.rtl .text-left {
+  text-align: right !important;
+}
+.rtl .input-group .form-control:last-child,
+.rtl .input-group-addon:last-child,
+.rtl .input-group-btn:last-child > .btn,
+.rtl .input-group-btn:last-child > .dropdown-toggle,
+.rtl .input-group-btn:first-child > .btn:not(:first-child) {
+  -moz-border-radius: 5px 0 0 5px;
+  -webkit-order-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+.rtl .input-group .form-control:first-child,
+.rtl .input-group-addon:first-child,
+.rtl .input-group-btn:first-child > .btn,
+.rtl .input-group-btn:first-child > .dropdown-toggle,
+.rtl .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+  -moz-border-radius: 0 5px 5px 0;
+  -webkit-order-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+}
+.rtl .icon-chevron-right:before {
+  content: '\f053';
+}
+.rtl .icon-chevron-left:before {
+  content: "\f054";
+}
+.rtl .navbar-nav {
+  padding-right: 0;
+}
+.rtl .navbar-nav > li {
+  float: right;
+}
+.rtl .navbar-toggle {
+  float: left;
+}
+.rtl .navbar-header {
+  float: right;
+}
+.rtl .container > .navbar-header,
+.rtl .container > .navbar-collapse {
+  margin: 0 -15px;
+}
+.rtl .navbar > .container .navbar-brand {
+  margin-right: 15px;
+  margin-left: 0;
+}
+.rtl .navbar-right {
+  float: left !important;
+}
+.rtl .navbar-nav {
+  float: right;
+}
+.rtl .slider-wrap {
+  direction: ltr;
+  text-align: right;
+}
+.rtl .list-unstyled {
+  padding-right: 0;
+}
+.rtl .nav-tabs {
+  padding: 0;
+}
+.rtl .nav-tabs > li {
+  float: right;
+}
+.rtl .icon-caret-left:before {
+  content: '\f0da';
+}
+.rtl .icon-caret-right:before {
+  content: '\f0d9';
+}
+@media (max-width: 1200px) {
+  .rtl [class^="col-lg-"] {
+    float: inherit;
+  }
+}
+@media (max-width: 979px) {
+  .rtl [class^="col-md-"] {
+    float: right;
+  }
+  .rtl .slider-wrap-2 [class^="col-md-"] {
+    float: none;
+  }
+  .rtl #footer-wrap .footer-nav {
+    padding: 0 20px 0 0;
+  }
+  .rtl .search-wrap .input-lg {
+    -moz-border-radius: 0 5px 5px 0 !important;
+    -webkit-order-radius: 0 5px 5px 0 !important;
+    border-radius: 0 5px 5px 0 !important;
+  }
+  .rtl .search-wrap .btn-lg {
+    -moz-border-radius: 5px 0 0 5px !important;
+    -webkit-order-radius: 5px 0 0 5px !important;
+    border-radius: 5px 0 0 5px !important;
+  }
+}
+@media (max-width: 767px) {
+  .rtl #header-left {
+    float: left;
+  }
+  .rtl [class^="col-md-"] {
+    float: none;
+  }
+  .rtl [class^="col-sm-"] {
+    float: none;
+  }
+  .rtl #header-right {
+    float: none;
+  }
+  .rtl [class^="col-xs-"] {
+    float: right;
+  }
+  .rtl .navbar-nav > li {
+    float: none;
+  }
+  .rtl #footer-wrap .footer-nav {
+    padding: 0;
+  }
+  .rtl .col-md-6 {
+    padding: 0 15px;
+  }
+  .rtl .recent-joke-wrap [class^="col-"] {
+    border-right: none;
+  }
+  .rtl .navbar-header {
+    float: none;
+  }
+  .rtl .navbar-header .login-section {
+    float: left;
+  }
+  .rtl .navbar-brand {
+    float: right;
+  }
+  .rtl .navbar-right {
+    float: none !important;
+  }
+  .rtl .navbar-nav {
+    float: none;
+  }
+  .rtl .navbar .navbar-nav > li > a {
+    border: none;
+    float: none;
+  }
+}
+.rtl #footer .social-icons a {
+  margin: 0 0 4px;
+}
+.rtl .feature-img {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+.rtl .feature-text {
+  padding: 0 0 0 15px;
+}
+.rtl .left-image-section .img-section {
+  float: right;
+  margin: 0 0 15px 20px;
+}
+.rtl .btn-group > .btn:last-child:not(:first-child),
+.rtl .btn-group > .dropdown-toggle:not(:first-child) {
+  -moz-border-radius: 7px 0 0 7px;
+  -webkit-order-radius: 7px 0 0 7px;
+  border-radius: 7px 0 0 7px;
+}
+.rtl .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  -moz-border-radius: 0 7px 7px 0;
+  -webkit-order-radius: 0 7px 7px 0;
+  border-radius: 0 7px 7px 0;
+}
+@media (max-width: 767px) {
+  .rtl .theme-pagination {
+    text-align: center !important;
+  }
+  .rtl .row.icons-list {
+    padding: 0;
+  }
+}
